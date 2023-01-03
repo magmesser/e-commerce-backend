@@ -1,45 +1,42 @@
-# e-commerce-backend
-Challenge 13 - Object-Relational Mapping (ORM) Challenge: E-commerce Back End
+  # E-Commerce Back End
 
-https://courses.bootcampspot.com/courses/2704/assignments/39998?module_item_id=765848
+  ## Badges
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  ## Description
+  🔮 Challenge 13 - Object-Relational Mapping (ORM) Challenge: This project was intended to take a working Express.js API and configure it to use Sequelize to interact with a MySQL database, to build the back end for an e-commerce site. 
 
-## Acceptance Criteria
-<!-- GIVEN a functional Express.js API -->
-<!-- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
-THEN I am able to connect to a database using Sequelize -->
-WHEN I enter schema and seed commands
-THEN a development database is created and is seeded with test data
-WHEN I enter the command to invoke the application
-THEN my server is started and the Sequelize models are synced to the MySQL database
-<!-- WHEN I open API GET routes in Insomnia Core for categories, products, or tags
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
-THEN I am able to successfully create, update, and delete data in my database -->
+  Video Walkthrough: [Click Here](https://watch.screencastify.com/v/VAylov4YVb4TeY5qmq6b) 
 
-<!-- ## Seed the Database
-After creating the models and routes, run npm run seed to seed data to your database so that you can test your routes. -->
+  ## 📚 Table of Contents
+  * [🔧 Installation](#installation)
+  * [🎢 Usage](#usage)
+  * [🚧 Contribution](#contribution)
+  * [📝 Tests](#tests)
+  * [🔑 License](#license)
+  * [❓ Questions](#questions)
+  
+  ## Installation
+  🔧 npm i
 
-## Sync Sequelize to the Database on Server Start
-Create the code needed in server.js to sync the Sequelize models to the MySQL database on server start.
+  ## Usage 
+  🎢 source and seed the database, then run npm i to install packages, run npm start to sync and connect to the database. Then use a program such as Insomnia to test CRUD functions for Tags, Categories, and Products.
 
-### Create ReadMe
-Technical Criteria 
-- Syncs Sequelize models to a MySQL database on the server start.
-- Includes column definitions for all four models outlined in the Challenge instructions.
-- Includes model associations outlined in the Challenge instructions.
+  ## Contribution 
+  🚧 [Contributor Covenant](https://www.contributor-covenant.org/) <br> 
+  Starter code provided by https://github.com/coding-boot-camp/fantastic-umbrella
 
-### Video Demo
-- A walkthrough video that demonstrates the functionality of the e-commerce back end must be submitted, and a link to the video should be included in your README file.
-- The walkthrough video must show all of the technical acceptance criteria being met.
-- The walkthrough video must demonstrate how to create the schema from the MySQL shell.
-- The walkthrough video must demonstrate how to seed the database from the command line.
-- The walkthrough video must demonstrate how to start the application’s server.
-- The walkthrough video must demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia Core.
-- The walkthrough video must demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia Core.
-- The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
+  ## Tests
+  📝 Test functionality in Insomnia
 
-How to Submit the Challenge
-- A walkthrough video:
-- The URL of the GitHub repository:
+  ## License
+  🔑 This application is covered under the MIT license.  <br> 
+      Find out more here: https://choosealicense.com/licenses/mit/ <br>
+      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+  ## Questions
+  ❓ Have questions? Please contact Maggie Messer at: <br>
+  * magmesser's GitHub: https://github.com/magmesser <br> 
+  * Maggie Messer's Email: magmesser@gmail.com <br>
+  
+  ❗ Repository Link: https://github.com/magmesser/e-commerce-backend
